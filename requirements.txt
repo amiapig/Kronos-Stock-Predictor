@@ -1,10 +1,7 @@
-numpy
+streamlit
 pandas
-torch
-
-einops==0.8.1
-huggingface_hub==0.33.1
-matplotlib==3.9.3
-pandas==2.2.2
-tqdm==4.67.1
-safetensors==0.6.2
+numpy
+plotly
+baostock
+由于 Kronos 模型不是 PyPI 上的标准库，我们假设 model.py 及其依赖已经存在或被正确导入
+如果部署平台无法识别 model 模块，您可能需要手动上传 model.py 或安装其依赖
