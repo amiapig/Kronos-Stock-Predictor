@@ -1,6 +1,6 @@
 streamlit
 pandas
-numpy
+numpy==1.24.4
 plotly
 baostock
 torch==2.0.1+cpu
